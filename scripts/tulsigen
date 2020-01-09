@@ -9,7 +9,7 @@ readonly bazel_executable="$bazel_root/bin/bazel"
 readonly tulsi_script="tools/tulsiw"
 
 if [[ ! -d $1 ]]; then
-  echo "$0 must be run from the BazelSample directory"
+  echo "$0 must be run from the Pomotimer directory"
   exit 1
 fi
 

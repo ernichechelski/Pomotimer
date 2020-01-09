@@ -15,7 +15,7 @@
 //
 
 @testable import SwiftLib
-import Nimble
+import RxSwift
 import XCTest
 
 final class SwiftLibTests: XCTestCase {
