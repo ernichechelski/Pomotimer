@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3EC0DEA23C720B800E5466F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC0DE923C720B800E5466F /* AppDelegate.swift */; };
+		A3EC0DEC23C720B800E5466F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC0DEB23C720B800E5466F /* SceneDelegate.swift */; };
+		A3EC0DEE23C720B800E5466F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC0DED23C720B800E5466F /* ViewController.swift */; };
+		A3EC0DF123C720B800E5466F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3EC0DEF23C720B800E5466F /* Main.storyboard */; };
+		A3EC0DF323C720BB00E5466F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3EC0DF223C720BB00E5466F /* Assets.xcassets */; };
+		A3EC0DF623C720BB00E5466F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3EC0DF423C720BB00E5466F /* LaunchScreen.storyboard */; };
+		A3EC0E0123C720BC00E5466F /* PomotimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC0E0023C720BC00E5466F /* PomotimerTests.swift */; };
+		A3EC0E0C23C720BC00E5466F /* PomotimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC0E0B23C720BC00E5466F /* PomotimerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3EC0DFD23C720BB00E5466F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3EC0DDE23C720B800E5466F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3EC0DE523C720B800E5466F;
+			remoteInfo = Pomotimer;
+		};
+		A3EC0E0823C720BC00E5466F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3EC0DDE23C720B800E5466F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3EC0DE523C720B800E5466F;
+			remoteInfo = Pomotimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3EC0DE623C720B800E5466F /* Pomotimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pomotimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3EC0DE923C720B800E5466F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3EC0DEB23C720B800E5466F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A3EC0DED23C720B800E5466F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3EC0DF023C720B800E5466F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3EC0DF223C720BB00E5466F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3EC0DF523C720BB00E5466F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3EC0DF723C720BB00E5466F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3EC0DFC23C720BB00E5466F /* PomotimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PomotimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3EC0E0023C720BC00E5466F /* PomotimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomotimerTests.swift; sourceTree = "<group>"; };
+		A3EC0E0223C720BC00E5466F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3EC0E0723C720BC00E5466F /* PomotimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PomotimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3EC0E0B23C720BC00E5466F /* PomotimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomotimerUITests.swift; sourceTree = "<group>"; };
+		A3EC0E0D23C720BC00E5466F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3EC0DE323C720B800E5466F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EC0DF923C720BB00E5466F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EC0E0423C720BC00E5466F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3EC0DDD23C720B800E5466F = {
+			isa = PBXGroup;
+			children = (
+				A3EC0DE823C720B800E5466F /* Pomotimer */,
+				A3EC0DFF23C720BC00E5466F /* PomotimerTests */,
+				A3EC0E0A23C720BC00E5466F /* PomotimerUITests */,
+				A3EC0DE723C720B800E5466F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3EC0DE723C720B800E5466F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3EC0DE623C720B800E5466F /* Pomotimer.app */,
+				A3EC0DFC23C720BB00E5466F /* PomotimerTests.xctest */,
+				A3EC0E0723C720BC00E5466F /* PomotimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3EC0DE823C720B800E5466F /* Pomotimer */ = {
+			isa = PBXGroup;
+			children = (
+				A3EC0DE923C720B800E5466F /* AppDelegate.swift */,
+				A3EC0DEB23C720B800E5466F /* SceneDelegate.swift */,
+				A3EC0DED23C720B800E5466F /* ViewController.swift */,
+				A3EC0DEF23C720B800E5466F /* Main.storyboard */,
+				A3EC0DF223C720BB00E5466F /* Assets.xcassets */,
+				A3EC0DF423C720BB00E5466F /* LaunchScreen.storyboard */,
+				A3EC0DF723C720BB00E5466F /* Info.plist */,
+			);
+			path = Pomotimer;
+			sourceTree = "<group>";
+		};
+		A3EC0DFF23C720BC00E5466F /* PomotimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3EC0E0023C720BC00E5466F /* PomotimerTests.swift */,
+				A3EC0E0223C720BC00E5466F /* Info.plist */,
+			);
+			path = PomotimerTests;
+			sourceTree = "<group>";
+		};
+		A3EC0E0A23C720BC00E5466F /* PomotimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3EC0E0B23C720BC00E5466F /* PomotimerUITests.swift */,
+				A3EC0E0D23C720BC00E5466F /* Info.plist */,
+			);
+			path = PomotimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3EC0DE523C720B800E5466F /* Pomotimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3EC0E1023C720BC00E5466F /* Build configuration list for PBXNativeTarget "Pomotimer" */;
+			buildPhases = (
+				A3EC0DE223C720B800E5466F /* Sources */,
+				A3EC0DE323C720B800E5466F /* Frameworks */,
+				A3EC0DE423C720B800E5466F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pomotimer;
+			productName = Pomotimer;
+			productReference = A3EC0DE623C720B800E5466F /* Pomotimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3EC0DFB23C720BB00E5466F /* PomotimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3EC0E1323C720BC00E5466F /* Build configuration list for PBXNativeTarget "PomotimerTests" */;
+			buildPhases = (
+				A3EC0DF823C720BB00E5466F /* Sources */,
+				A3EC0DF923C720BB00E5466F /* Frameworks */,
+				A3EC0DFA23C720BB00E5466F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3EC0DFE23C720BB00E5466F /* PBXTargetDependency */,
+			);
+			name = PomotimerTests;
+			productName = PomotimerTests;
+			productReference = A3EC0DFC23C720BB00E5466F /* PomotimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3EC0E0623C720BC00E5466F /* PomotimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3EC0E1623C720BC00E5466F /* Build configuration list for PBXNativeTarget "PomotimerUITests" */;
+			buildPhases = (
+				A3EC0E0323C720BC00E5466F /* Sources */,
+				A3EC0E0423C720BC00E5466F /* Frameworks */,
+				A3EC0E0523C720BC00E5466F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3EC0E0923C720BC00E5466F /* PBXTargetDependency */,
+			);
+			name = PomotimerUITests;
+			productName = PomotimerUITests;
+			productReference = A3EC0E0723C720BC00E5466F /* PomotimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3EC0DDE23C720B800E5466F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Ernest Chechelski";
+				TargetAttributes = {
+					A3EC0DE523C720B800E5466F = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					A3EC0DFB23C720BB00E5466F = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = A3EC0DE523C720B800E5466F;
+					};
+					A3EC0E0623C720BC00E5466F = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = A3EC0DE523C720B800E5466F;
+					};
+				};
+			};
+			buildConfigurationList = A3EC0DE123C720B800E5466F /* Build configuration list for PBXProject "Pomotimer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3EC0DDD23C720B800E5466F;
+			productRefGroup = A3EC0DE723C720B800E5466F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3EC0DE523C720B800E5466F /* Pomotimer */,
+				A3EC0DFB23C720BB00E5466F /* PomotimerTests */,
+				A3EC0E0623C720BC00E5466F /* PomotimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3EC0DE423C720B800E5466F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EC0DF623C720BB00E5466F /* LaunchScreen.storyboard in Resources */,
+				A3EC0DF323C720BB00E5466F /* Assets.xcassets in Resources */,
+				A3EC0DF123C720B800E5466F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EC0DFA23C720BB00E5466F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EC0E0523C720BC00E5466F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3EC0DE223C720B800E5466F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EC0DEE23C720B800E5466F /* ViewController.swift in Sources */,
+				A3EC0DEA23C720B800E5466F /* AppDelegate.swift in Sources */,
+				A3EC0DEC23C720B800E5466F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EC0DF823C720BB00E5466F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EC0E0123C720BC00E5466F /* PomotimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EC0E0323C720BC00E5466F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EC0E0C23C720BC00E5466F /* PomotimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3EC0DFE23C720BB00E5466F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3EC0DE523C720B800E5466F /* Pomotimer */;
+			targetProxy = A3EC0DFD23C720BB00E5466F /* PBXContainerItemProxy */;
+		};
+		A3EC0E0923C720BC00E5466F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3EC0DE523C720B800E5466F /* Pomotimer */;
+			targetProxy = A3EC0E0823C720BC00E5466F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3EC0DEF23C720B800E5466F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3EC0DF023C720B800E5466F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3EC0DF423C720BB00E5466F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3EC0DF523C720BB00E5466F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3EC0E0E23C720BC00E5466F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3EC0E0F23C720BC00E5466F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3EC0E1123C720BC00E5466F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8VPEQS329;
+				INFOPLIST_FILE = Pomotimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ernichechelski.Pomotimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3EC0E1223C720BC00E5466F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8VPEQS329;
+				INFOPLIST_FILE = Pomotimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ernichechelski.Pomotimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A3EC0E1423C720BC00E5466F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8VPEQS329;
+				INFOPLIST_FILE = PomotimerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ernichechelski.PomotimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pomotimer.app/Pomotimer";
+			};
+			name = Debug;
+		};
+		A3EC0E1523C720BC00E5466F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8VPEQS329;
+				INFOPLIST_FILE = PomotimerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ernichechelski.PomotimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pomotimer.app/Pomotimer";
+			};
+			name = Release;
+		};
+		A3EC0E1723C720BC00E5466F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8VPEQS329;
+				INFOPLIST_FILE = PomotimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ernichechelski.PomotimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pomotimer;
+			};
+			name = Debug;
+		};
+		A3EC0E1823C720BC00E5466F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8VPEQS329;
+				INFOPLIST_FILE = PomotimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ernichechelski.PomotimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pomotimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3EC0DE123C720B800E5466F /* Build configuration list for PBXProject "Pomotimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3EC0E0E23C720BC00E5466F /* Debug */,
+				A3EC0E0F23C720BC00E5466F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3EC0E1023C720BC00E5466F /* Build configuration list for PBXNativeTarget "Pomotimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3EC0E1123C720BC00E5466F /* Debug */,
+				A3EC0E1223C720BC00E5466F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3EC0E1323C720BC00E5466F /* Build configuration list for PBXNativeTarget "PomotimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3EC0E1423C720BC00E5466F /* Debug */,
+				A3EC0E1523C720BC00E5466F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3EC0E1623C720BC00E5466F /* Build configuration list for PBXNativeTarget "PomotimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3EC0E1723C720BC00E5466F /* Debug */,
+				A3EC0E1823C720BC00E5466F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3EC0DDE23C720B800E5466F /* Project object */;
+}
