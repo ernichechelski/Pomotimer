@@ -17,7 +17,9 @@
 import UIKit
 import RxSwift
 
-public final class ViewController: UIViewController {
+protocol TimerViewControllerRoutes: ViewControllerRoutes {}
+
+public final class ViewController: UIViewController, TimerViewControllerRoutes {
     @IBOutlet var worktimeViewContainer: UIView!
     @IBOutlet var breaktimeViewContainer: UIView!
     @IBOutlet var timeViewContainer: UIView!
@@ -26,4 +28,9 @@ public final class ViewController: UIViewController {
     @IBOutlet var breaktimeTextField: UITextField!
     @IBOutlet var timeLabel: UILabel!
     @IBOutlet var actionButton: UIButton!
+
+
+    public override func viewDidLoad() {
+        super.viewDidLoad()
+    }
 }

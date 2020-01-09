@@ -6,9 +6,9 @@
   },
   "packages" : [
     "App",
-    "Modules/SwiftLib",
-    "Modules/SwiftLibWithResources"
+    "Modules/Timer",
+    "Modules/SwiftLib"
   ],
-  "projectName" : "BazelSample",
+  "projectName" : "Pomotimer",
   "workspaceRoot" : "../.."
 }

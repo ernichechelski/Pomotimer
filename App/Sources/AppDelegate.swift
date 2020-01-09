@@ -12,7 +12,9 @@ import Timer
 
 final class AppDelegate: UIResponder {
 
-    var window: UIWindow?
+    public var window: UIWindow?
+
+    var appCoordinator: Coordinator?
 
 }
 
@@ -20,11 +22,10 @@ extension AppDelegate: UIApplicationDelegate {
 
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = ViewController()
-        window?.makeKeyAndVisible()
-
+        appCoordinator = AppCoordinator()
+        appCoordinator?.window = window
+        appCoordinator?.start()
         return true
     }
 
