@@ -21,7 +21,7 @@ import XCTest
 final class SwiftLibTests: XCTestCase {
 
     func testExample() {
-        expect(Dummy().value).to(beTrue())
+        
     }
 
 }

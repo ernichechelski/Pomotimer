@@ -1,3 +1,21 @@
-/Carthage/*
-*.resolved
-/XCode/*
+## Build generated
+/bazel-*
+
+# Downloaded bazel
+**/*/bazel
+
+# Tulsi user config
+**/*.tulsiconf-user
+
+# Xcode
+**/*.xcodeproj
+**/*.xcworkspace
+
+# Carthage
+#
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+Carthage/Checkouts
+Carthage/Build
+bazel-bin
+bazel-testlogs
+Cartfile.resolved

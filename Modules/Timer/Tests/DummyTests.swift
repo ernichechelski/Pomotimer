@@ -14,14 +14,14 @@
 //  limitations under the License.
 //
 
-@testable import SwiftLibWithResources
+@testable import Timer
 import RxSwift
 import XCTest
 
-final class SwiftLibTests: XCTestCase {
+final class TimerTests: XCTestCase {
 
     func testExample() {
-        expect(ViewController()).toNot(beNil())
+        
     }
 
 }

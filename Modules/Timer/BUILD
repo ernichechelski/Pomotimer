@@ -4,7 +4,7 @@ licenses(["notice"])
 
 first_party_library(
     name = "Timer",
-    test_deps = [
+    deps = [
         "//Carthage:RxSwift",
     ]
 )

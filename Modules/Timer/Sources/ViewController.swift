@@ -15,7 +15,15 @@
 //
 
 import UIKit
+import RxSwift
 
 public final class ViewController: UIViewController {
-
+    @IBOutlet var worktimeViewContainer: UIView!
+    @IBOutlet var breaktimeViewContainer: UIView!
+    @IBOutlet var timeViewContainer: UIView!
+    @IBOutlet var buttonViewContainer: UIView!
+    @IBOutlet var worktimeTextField: UITextField!
+    @IBOutlet var breaktimeTextField: UITextField!
+    @IBOutlet var timeLabel: UILabel!
+    @IBOutlet var actionButton: UIButton!
 }
