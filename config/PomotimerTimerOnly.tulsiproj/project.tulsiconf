@@ -1,0 +1,12 @@
+{
+  "configDefaults" : {
+    "optionSet" : {
+
+    }
+  },
+  "packages" : [
+    "Modules/Timer"
+  ],
+  "projectName" : "PomotimerTimerOnly",
+  "workspaceRoot" : "../.."
+}

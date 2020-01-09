@@ -28,9 +28,4 @@ public final class ViewController: UIViewController, TimerViewControllerRoutes {
     @IBOutlet var breaktimeTextField: UITextField!
     @IBOutlet var timeLabel: UILabel!
     @IBOutlet var actionButton: UIButton!
-
-
-    public override func viewDidLoad() {
-        super.viewDidLoad()
-    }
 }

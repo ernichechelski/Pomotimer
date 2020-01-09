@@ -25,6 +25,10 @@ kill_xcode:
 project: kill_xcode
 	scripts/tulsigen config/Pomotimer.tulsiproj Develop
 
+develop: kill_xcode
+	scripts/tulsigen config/PomotimerTimerOnly.tulsiproj DefaultConfig
+
+
 clean: kill_xcode
 	rm -rf **/*.xcworkspace
 	rm -rf **/*.xcodeproj
