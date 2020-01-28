@@ -16,12 +16,14 @@
 
 @testable import SwiftLib
 import RxSwift
+import Nimble
 import XCTest
 
 final class SwiftLibTests: XCTestCase {
 
     func testExample() {
-        
+        print("Testing")
+        assert(true)
+        expect(Dummy().value).to(equal(Dummy().value))
     }
-
 }

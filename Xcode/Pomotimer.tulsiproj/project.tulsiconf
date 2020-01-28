@@ -5,8 +5,9 @@
     }
   },
   "packages" : [
-    "App"
+    "Modules/SwiftLib",
+    "Modules/App"
   ],
-  "projectName" : "TomatimerApp",
+  "projectName" : "Pomotimer",
   "workspaceRoot" : "../.."
 }

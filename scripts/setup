@@ -8,6 +8,7 @@ if ! command -v carthage > /dev/null; then
   exit 1
 fi
 
-carthage update RxSwift --platform iOS --cache-builds
+cd Modules/Carthage
+carthage update --platform iOS --cache-builds
 
 exit 0

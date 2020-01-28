@@ -6,10 +6,10 @@ application(
     name = "Pomotimer",
     infoplist = "Supporting Files/Info.plist",
     app_icons = [
-        "//App/Resources:AppIcon",
+        "//Modules/Resources:AppIcon",
     ],
     resources = [
-        "//App/Resources:Assets",
+        "//Modules/Resources:Assets",
     ],
     deps = [
         "//Modules/Timer:Timer",

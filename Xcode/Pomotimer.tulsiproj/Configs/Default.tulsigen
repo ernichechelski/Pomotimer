@@ -1,9 +1,20 @@
 {
   "additionalFilePaths" : [
-    "App/BUILD"
+    "Modules/Timer/BUILD",
+    "Modules/SwiftLib/BUILD",
+    "Modules/App/BUILD"
   ],
   "buildTargets" : [
-    "//App:Pomotimer"
+    "//Modules/App:Pomotimer",
+    "//Modules/App:PomotimerLib",
+    "//Modules/App:PomotimerLibTestLib",
+    "//Modules/App:PomotimerLibTests",
+    "//Modules/SwiftLib:SwiftLib",
+    "//Modules/SwiftLib:SwiftLibTestLib",
+    "//Modules/SwiftLib:SwiftLibTests",
+    "//Modules/Timer:Timer",
+    "//Modules/Timer:TimerTestLib",
+    "//Modules/Timer:TimerTests"
   ],
   "optionSet" : {
     "BazelBuildOptionsDebug" : {
@@ -46,12 +57,25 @@
       "p" : "$(inherited)"
     }
   },
-  "projectName" : "PomotimerApp",
+  "projectName" : "Pomotimer",
   "sourceFilters" : [
-    "App/...",
-    "App/Resources",
-    "App/Resources/Base.lproj",
-    "App/Sources",
-    "App/Supporting Files"
+    "Modules/...",
+    "Modules/App",
+    "Modules/App/Resources",
+    "Modules/App/Resources/Base.lproj",
+    "Modules/App/Sources",
+    "Modules/App/Supporting Files",
+    "Modules/App/Tests",
+    "Modules/Carthage",
+    "Modules/Carthage/Carthage",
+    "Modules/Carthage/Carthage/Build",
+    "Modules/Carthage/Carthage/Build/iOS",
+    "Modules/SwiftLib",
+    "Modules/SwiftLib/Sources",
+    "Modules/SwiftLib/Tests",
+    "Modules/Timer",
+    "Modules/Timer/Resources",
+    "Modules/Timer/Sources",
+    "Modules/Timer/Tests"
   ]
 }

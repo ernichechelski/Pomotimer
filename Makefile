@@ -7,13 +7,13 @@ setup:
 	scripts/setup
 
 build:
-	$(BAZEL) build //App:Pomotimer
+	$(BAZEL) build //Modules/App:Pomotimer
 
 test:
 	$(BAZEL) test //...
 
 run:
-	$(BAZEL) run //App:Pomotimer
+	$(BAZEL) run //Modules/App:Pomotimer
 
 bootstrap: setup build test run
 	echo "Done"

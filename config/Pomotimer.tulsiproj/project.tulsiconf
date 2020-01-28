@@ -5,7 +5,9 @@
     }
   },
   "packages" : [
-    "App",
+    "Modules/Carthage",
+    "Modules/App",
+    "Modules/Resources",
     "Modules/Timer",
     "Modules/SwiftLib"
   ],

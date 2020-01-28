@@ -1,0 +1,14 @@
+load("//config:custom_rules.bzl", "prebuilt_dynamic_framework")
+# load("//config:custom_rules.bzl", "prebuilt_static_framework")
+
+licenses(["notice"])
+
+prebuilt_dynamic_framework(
+    name = "RxSwift",
+    path = "Carthage/Build/iOS/RxSwift.framework",
+)
+
+prebuilt_dynamic_framework(
+    name = "Nimble",
+    path = "Carthage/Build/iOS/Nimble.framework",
+)

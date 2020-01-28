@@ -21,7 +21,7 @@ import XCTest
 final class TimerTests: XCTestCase {
 
     func testExample() {
-        
+        assert(true, "XD")
     }
 
 }

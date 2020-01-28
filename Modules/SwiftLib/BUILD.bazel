@@ -5,6 +5,9 @@ licenses(["notice"])
 first_party_library(
     name = "SwiftLib",
     test_deps = [
-        "//Carthage:RxSwift",
-    ]
+        "//Modules/Carthage:Nimble",
+    ],
+    deps = [
+       "//Modules/Carthage:RxSwift",
+    ],
 )
